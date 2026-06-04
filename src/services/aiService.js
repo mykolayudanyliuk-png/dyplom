@@ -1,5 +1,5 @@
 const API_KEY = "AIzaSyAJR-DGZowYeoSWocN0JCNUovzVIYA2DR0";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 export const generateAIResponse = async (userPrompt) => {
   const response = await fetch(API_URL, {
